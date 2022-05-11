@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.metsanttresh.xyz",
-      "CheckUser": " http://209.14.71.25:8080/checkUser",
+      "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
