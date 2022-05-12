@@ -1,11 +1,11 @@
 {
-"Version": "4.0.0",
+"Version": "2.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBSMS",
   "Bem Vindo (A)": "",
-  "": "https://wa.me/5511956551771"
-  "UrlTermos": "",
+  "": "https://wa.me/5511956551771",
+  "UrlTermos": "xnetpainelvip.xyz",
   "CheckUser": "true",
   "Udp": [
     {
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.metsanttresh.xyz",
-      "CheckUser": "",
+      "CheckUser": " http://209.14.71.25:8080/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
