@@ -1,11 +1,11 @@
 {
-"Version": "1.0.0",
+"Version": "2.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
-  "Sms": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBSMS",
+  "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
   "Bem Vindo (A)": "",
   "": "https://wa.me/5511956551771",
-  "UrlTermos": "xnetpainelvip.xyz",
+  "UrlTermos": "",
   "CheckUser": "true",
   "Udp": [
     {
@@ -132,13 +132,13 @@
 	  
         "Name": "Tim 3",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-      
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+"SNI": "cdnjs.cloudflare.com", 
+"TlsIP": "104.16.19.94",
+ "ProxyIP": "",
+ "ProxyPort": "", 
+"Info": "Tlsws"       
+    
         },
     {
 	  
@@ -156,9 +156,9 @@
     {
       "Name": "Claro 1",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host] \nUpgrade: ws\n\n",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "199.60.103.228",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -168,8 +168,8 @@
 	  
         "Name": "Claro 2",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host] \nUpgrade: ws\n\n",
-      "SNI": "no.descomplica.com.br",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": " atendimento.descomplica.com.br ",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -180,13 +180,12 @@
 	  
         "Name": "Claro 3",
       "FLAG": "claro",
-      "Payload": "GET sni://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]",
-      "SNI": "no.descomplica.com.br",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": " atendimento.descomplica.com.br ",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
-      	  
+      "Info": "Tlsws"      	  
     },
     {
 
