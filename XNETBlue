@@ -26,11 +26,11 @@
   ],
   "Networks": [
     {
-        "Name": "Vivo 1",
-      "FLAG": "vivo",
-     	      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-	      "SNI": " www.alura.com.br",
-	      "TlsIP": "104.24.10.16",
+             "Name": "Vivo 1",
+	      "FLAG": "vivo",
+	      "Payload": "GET wss://www.alura.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "www.alura.com.br",
+	      "TlsIP": "104.24.25.34",
 	      "ProxyIP": "",
 	      "ProxyPort": "",
 	      "Info": "Tlsws"
