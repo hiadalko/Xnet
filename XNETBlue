@@ -1,5 +1,5 @@
 {
-"Version": "17.0.0",
+"Version": "18.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -28,80 +28,81 @@
     {
         "Name": "Vivo 1",
       "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-        "Name": "Vivo 2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      
-        },
-    {
-	  
-        "Name": "Vivo 3",
-      "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-      
-        },
-    {
-	  
-        "Name": "Vivo 4",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "vivo360.vivo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-      
-        },
-    {
-	  
-        "Name": "Vivo 5",
-      "FLAG": "vivo",
-      "Payload": "GET wss://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: [app_host] [crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "portaldeassinaturas.vivo.com.br ",
-      "TlsIP": "portaldeassinaturas.vivo.com.br ",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-        "Name": "VIVO 6",
-      "FLAG": "vivo",
-      "Payload": "GET wss://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: [app_host] [crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "portaldeassinaturas.vivo.com.br ",
-      "TlsIP": "portaldeassinaturas.vivo.com.br ",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {  
-      
-      
-        "Name": "Vivo 7",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+     	      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": " www.alura.com.br",
+	      "TlsIP": "104.24.10.16",
+	      "ProxyIP": "",
+	      "ProxyPort": "",
+	      "Info": "Tlsws"
+	    },
+	    {
+	        "Name": "Vivo 2",
+	      "FLAG": "vivo",
+	      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "",
+	      "TlsIP": "",
+	      "ProxyIP": "104.24.24.34",
+	      "ProxyPort": "80",
+	      "Info": "Proxy"
+	      
+	        },
+	    {
+		  
+	        "Name": "Vivo 3",
+	      "FLAG": "vivo",
+	      "Payload": "GET wss://www.alura.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "www.alura.com.br",
+	      "TlsIP": "104.24.25.34",
+	      "ProxyIP": "",
+	      "ProxyPort": "",
+	      "Info": "Tlsws"
+	      
+	        },
+	    {
+		  
+	        "Name": "Vivo 4",
+	      "FLAG": "vivo",
+	      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "",
+	      "TlsIP": "",
+	      "ProxyIP": "172.64.130.2",
+	      "ProxyPort": "80",
+	      "Info": "Proxy"
+	      
+	        },
+	    {
+		  
+	        "Name": "Vivo 5",
+	      "FLAG": "vivo",
+	      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "",
+	      "TlsIP": "",
+	      "ProxyIP": "172.64.194.2",
+	      "ProxyPort": "80",
+	      "Info": "Proxy"
+	    },
+	    {
+	        "Name": "VIVO 6",
+	      "FLAG": "vivo",
+	      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "",
+	      "TlsIP": "",
+	      "ProxyIP": "172.64.195.2",
+	      "ProxyPort": "80",
+	      "Info": "Proxy"
+	    },
+	    {  
+	      
+	      
+	        "Name": "Vivo 7",
+	      "FLAG": "vivo",
+	      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: ws[crlf][crlf]",
+	      "SNI": "",
+	      "TlsIP": "",
+	      "ProxyIP": "104.24.25.34",
+	      "ProxyPort": "80",
+	      "Info": "Proxy"
+
       
     },
     { 
