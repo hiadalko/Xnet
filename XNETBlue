@@ -27,12 +27,12 @@
    "Networks": [
     {
             "Name": "Vivo 1",
-      "FLAG": "vivo",
-      "Payload": "GET ws://dev.pagseguro.uol.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "dev.pagseguro.uol.com.br",
-      "TlsIP": "104.18.7.80",
+       "FLAG": "vivo",
+      "Payload": "GET wss://unpkg.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "104.21.11.51",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
