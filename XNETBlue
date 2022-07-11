@@ -1,5 +1,5 @@
 {
-"Version": "40.0.0",
+"Version": "41.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -24,7 +24,7 @@
       "USER": "",
       "PASS": ""    }
   ],
-  	"Networks": [
+  	 "Networks": [
 	    {
 	         "Name": "Vivo 1",
 	       "FLAG": "vivo",
@@ -50,8 +50,8 @@
 		  
 	         "Name": "Vivo 3",
 	       "FLAG": "vivo",
-	      "Payload": "GET wss:// mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "mobilidade.cloud.caixa.gov.br",
+	      "Payload": "GET wss://vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+	      "SNI": "vpn.victorthierri.tk",
 	      "TlsIP": "104.16.56.6",
 	      "ProxyIP": "",
 	      "ProxyPort": "443",
@@ -103,235 +103,19 @@
 	      "Info": "Tlsws"
 	      
 	    },
-        {
-	         "Name": "Vivo 8",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.16.56.6",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
+	    
+	     {  
 	      
-	        },
- {
-		  
-	         "Name": "Vivo 9",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.21.11.51",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 10",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tkr/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
+	        "Name": "Vivo 8",
+	     "FLAG": "vivo",
+	      "Payload": "GET wss://www.xvideos.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+	      "SNI": "www.xvideos.com",
 	      "TlsIP": "172.67.165.43",
 	      "ProxyIP": "",
 	      "ProxyPort": "443",
 	      "Info": "Tlsws"
 	      
-	        },
- {
-		  
-	         "Name": "Vivo 11",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.18.6.80",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 12",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.24.10.16",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 13",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.24.11.16",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 14",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.16.123.175",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 15",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "172.67.165.43",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 16",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://carrinho-pos-familia.vivo.com.usa/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "172.67.165.43",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 17",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://checkout.mediafire.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "172.67.165.43",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 18",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vivomusica.vivo.com.usa/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tkr",
-	      "TlsIP": "104.18.7.80",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 19",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://vpoweb.vivo.com.usa / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.16.56.6",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 20",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.16.56.6",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
-{
-		  
-	         "Name": "Vivo 21",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://legado.vivo.com.usa/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.21.11.51",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 22",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss://support.pokemon.comk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "172.64.130.2",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
-
- {
-		  
-	         "Name": "Vivo 23",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "legado.vivo.com.usa",
-	      "TlsIP": "104.21.11.51",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 24",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "cursofl.formuladelancamento.com.usa",
-	      "TlsIP": "104.21.11.51",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 25",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "blog.alura.com.br",
-	      "TlsIP": "104.21.84.78",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
- {
-		  
-	         "Name": "Vivo 26",
-	       "FLAG": "vivo",
-	      "Payload": "GET wss:// vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "cursofl.formuladelancamento.com.usa",
-	      "TlsIP": "104.21.11.51",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
-	      
-	        },
-
+	    },
 
 
 	    { 
