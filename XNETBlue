@@ -1,5 +1,5 @@
 {
-"Version": "49.0.0",
+"Version": "40.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -263,7 +263,7 @@
 	  
         
         "Name": "Oi 4",
-      "FLAG": "tim",
+      "FLAG": "oi",
       "Payload": "GET wss://texugo.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "texugo.alura.com.br",
       "TlsIP": "104.21.84.78",
