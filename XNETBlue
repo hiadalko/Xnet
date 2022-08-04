@@ -38,25 +38,25 @@
 	    },
 	    {
 	        "Name": "Vivo 2",
-	      "FLAG": "vivo",
-	      "Payload": "GET / HTTP/1.1[crlf]Host: br1.metsanttresh.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-	      "SNI": "",
-	      "TlsIP": "",
-	      "ProxyIP": "13.35.118.90",
-	      "ProxyPort": "80",
-	      "Info": "Proxy"
+	        "FLAG": "vivo",
+       "Payload": "GET / HTTP/1.1[crlf]Host:br1.metsanttresh.xyz [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "recarga.vivo.com.br",
+       "ProxyPort": "80",
+       "Info": "Proxy"
 	      
 	        },
 	    {
 		  
 	         "Name": "Vivo 3",
 	       "FLAG": "vivo",
-	      "Payload": "GET wss://vpn.victorthierri.tk/ HTTP/1.1[crlf]Host: br1.metsanttresh.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-	      "SNI": "vpn.victorthierri.tk",
-	      "TlsIP": "104.16.56.6",
-	      "ProxyIP": "",
-	      "ProxyPort": "443",
-	      "Info": "Tlsws"
+       "Payload": "GET / HTTP/1.1[crlf]Host:br1.metsanttresh.xyz [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "recarga.vivo.com.br",
+       "ProxyPort": "80",
+       "Info": "Proxy"
 	      
 	        },
 	    {
