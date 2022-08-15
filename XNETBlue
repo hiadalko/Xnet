@@ -1,5 +1,5 @@
 {
-"Version": "51.0.2",
+"Version": "51.0.4",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -144,14 +144,14 @@
 	        },
 
 	    { 
-	      "Name": "Tim 1",
-      "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
-      "ProxyIP": "",
+	     "Name": "TIM 1",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cl.metsanttresh.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "produtos.mobilidade.caixa.gov.br",
+      "TlsIP": "produtos.mobilidade.caixa.gov.br",
+      "ProxyIP": "179.191.172.1",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "Tlsws"  
       
         },
     {
