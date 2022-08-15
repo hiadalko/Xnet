@@ -1,5 +1,5 @@
 {
-"Version": "51.0.5",
+"Version": "51.0.6",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -39,7 +39,7 @@
 	    {
 	        "Name": "Vivo 2",
 	        "FLAG": "vivo",
-       "Payload": "GET / HTTP/1.1[crlf]Host:br1.metsanttresh.xyz [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+       "Payload": GET / HTTP/1.1[crlf]Host: cl.metsanttresh.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
        "SNI": "",
        "TlsIP": "",
        "ProxyIP": "recarga.vivo.com.br",
