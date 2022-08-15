@@ -1,5 +1,5 @@
 {
-"Version": "51.0.4",
+"Version": "51.0.5",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -147,10 +147,10 @@
 	     "Name": "TIM 1",
       "FLAG": "claro",
       "Payload": "GET / HTTP/1.1[crlf]Host: cl.metsanttresh.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "produtos.mobilidade.caixa.gov.br",
-      "TlsIP": "produtos.mobilidade.caixa.gov.br",
-      "ProxyIP": "179.191.172.1",
-      "ProxyPort": "",
+      "SNI": "lojaonline.tim.com.br",
+      "TlsIP": "lojaonline.tim.com.br",
+      "ProxyIP": "lojaonline.tim.com.br",
+      "ProxyPort": "443",
       "Info": "Tlsws"  
       
         },
