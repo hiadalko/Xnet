@@ -1,5 +1,5 @@
 {
-"Version": "59.0.7",
+"Version": "60.0.7",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/hiadalko/Xnet/main/XNETBlue",
   "Sms": "https://raw.githubusercontent.com/hiadalkXnet/main/XNETBSMS",
@@ -28,23 +28,23 @@
   	  "Networks": [
 	    {
 	         "Name": "Vivo 1",
-        "FLAG": "vivo",
-       "Payload": "GET / HTTP/1.1[crlf]Host:br1.metsanttresh.xyz [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "recarga.vivo.com.br",
-       "ProxyPort": "80",
-       "Info": "Proxy"
+	       "FLAG": "vivo",
+	      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+	      "SNI": "bam.nr-data.net",
+	      "TlsIP": "bam.nr-data.net",
+	      "ProxyIP": "",
+	      "ProxyPort": "443",
+	      "Info": "Tlsws"
 	    },
 	    {
 	        "Name": "Vivo 2",
-	        "FLAG": "vivo",
-       "Payload": "GET / HTTP/1.1[crlf]Host: cl.metsanttresh.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "recarga.vivo.com.br",
-       "ProxyPort": "80",
-       "Info": "Proxy"
+	       "FLAG": "vivo",
+	      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+	      "SNI": "bam.nr-data.net",
+	      "TlsIP": "bam.nr-data.net",
+	      "ProxyIP": "",
+	      "ProxyPort": "443",
+	      "Info": "Tlsws"
 	      
 	        },
 	    {
